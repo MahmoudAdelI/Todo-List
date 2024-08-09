@@ -1,0 +1,44 @@
+body {
+    background-color: #151515;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #1c1c1c;
+    border: 1px solid;
+    border-color: #ffffff1e;
+    border-radius: 10px;
+    box-shadow: rgba(131, 131, 131, 0.1) 0px 0px 40px 20px;
+}
+
+
+input[type=text]::placeholder {
+    color: #ffffff50;
+    font-size: smaller;
+
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    max-width: 400px;
+}
+
+.add label {
+    color: #ffffff90;
+}
+
+.todos li {
+    background-color: #212121;
+    border: 1px solid #ffffff1e;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}

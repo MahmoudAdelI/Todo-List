@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todos</title>
+</head>
+
+<body>
+    <div class="box d-flex flex-column justify-content-center vh-100">
+
+        <div class="container">
+            <header class="text-center text-light my-4">
+                <h1 class="mb-4">Todo List</h1>
+                <form action="" class="search">
+                    <input type="text" class="form-control m-auto" name="search" placeholder="search todos">
+                </form>
+            </header>
+
+            <ul class="todos list-group mx-auto"></ul>
+
+            <form class="add text-center my-4">
+                <label for="add" class="mb-3">Add a new todo...</label>
+                <input id="add" type="text" class="form-control m-auto" name="add"
+                    placeholder="type your todos here...">
+            </form>
+        </div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
